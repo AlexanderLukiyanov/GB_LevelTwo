@@ -1,0 +1,15 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.TextArea?>
+
+<?import javafx.scene.control.TextField?>
+<VBox fx:controller="sample.Controller" xmlns:fx="http://javafx.com/fxml" alignment="center">
+    <TextArea fx:id="mainTextArea" VBox.vgrow="ALWAYS" />
+    <TextField fx:id="mainTextField" VBox.vgrow="ALWAYS"/>
+    <Button text="Button #1" onAction="#btnOneClickAction"/>
+    </VBox>
+
