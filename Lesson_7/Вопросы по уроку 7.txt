@@ -1,0 +1,4 @@
+1. Почему мы делаем методы SqlClient sunchronized?
+2. Что такое log.setCurrentPosition(log.getDocument().getLength())? На уроке не разобрался.
+3. Можно ли вынести getAuthAccept и getAuthDenied из класса Common? И если да то куда лучше?
+4. Почему метод onChatServerMessage находится в интерфейсе?
